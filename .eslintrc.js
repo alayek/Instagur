@@ -8,6 +8,10 @@ module.exports = {
     ],
     "env": {
       "node": true,
-      "mocha": true
+      "mocha": true,
+      "browser": true
+    },
+    "rules": {
+      "react/jsx-filename-extension": 0
     }
 };
